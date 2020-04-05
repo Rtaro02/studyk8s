@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: sample-rs-pod
+    labels: 
+        env: dev
+        codename: system_a
+        role: web-front
+spec:
+    containers:
+        - name: nginx-container
+          image: nginx:1.13
+          ports:
+              - containerPort: 80
