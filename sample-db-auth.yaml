@@ -1,0 +1,11 @@
+apiVersion: v1
+data:
+  password: QzbUw4fVdBeUpz4ag3rGxY1KLV9IU9zmBEUQPkTmSB/QDwf8GjGB1POrt6RDop7O.BdSU9f89ZQ3kkzHr.rv0A+MSosRi8GjvJoRhrWw==
+  username: ReT0hDrlMMXMjfosNw4qCjwfdq6oa2xsLG2YluXqSbctCdMYmC4xmp+VA6RkWQom.qEA5hPyof2E0Tdta.WfpKMCS1l4jddOHY1CI6hg==
+kind: Secret
+metadata:
+  name: sample-db-auth
+type: Opaque
+# kubesec:v:3
+# kubesec:gcp:projects/grounded-chain-272314/locations/global/keyRings/sample-keyrings/cryptoKeys/kubesec-key:CiQA0eM0cDye772v5MIO0a4S0Vap3YHMmZEMfQ/aN6dziL4kxOUSSQBs6NC5cKGr4OV41RrTHMdk3SPrrekx4jlCiTIeFiCHIMWkvM/0GUSp++ckhgqCQaxBvCPRaZBirzF/Hf2gYil0wrc4WjLS6tg=
+# kubesec:mac:/4EqCISMVntFZ0L0.GFjlvc0snnO6nkwZWKAjsA==
