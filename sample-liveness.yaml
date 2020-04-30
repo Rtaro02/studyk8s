@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: sample-healthcheck
+  name: sample-liveness
   labels:
     app: sample-app
 spec:
@@ -18,13 +18,5 @@ spec:
       timeoutSeconds: 1
       successThreshold: 1
       failureThreshold: 2
-      initialDelaySeconds: 5
-      periodSeconds: 3
-    readinessProbe:
-      exec:
-        command: ["ls", "/usr/share/nginx/html/50x.html"]
-      timeoutSeconds: 1
-      successThreshold: 2
-      failureThreshold: 1
       initialDelaySeconds: 5
       periodSeconds: 3
